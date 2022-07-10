@@ -11,7 +11,7 @@ def RangeOfPoints(NumberQuarter):
     print(f'Pange of points in {NumberQuarter} quarter is {range}')
 
 try:
-    umberQuarter=int (input('Quarter: '))
+    NumberQuarter=int (input('Quarter: '))
     RangeOfPoints(NumberQuarter)
 except:
     print("Incorrect data entry")
